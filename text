@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión y Reutilización de Residuos Electrónicos</title>
+    <style>
+        /* Diseño Profesional y Limpio */
+        :root {
+            --primary: #1a365d;
+            --secondary: #2b6cb0;
+            --text-main: #2d3748;
+            --text-light: #718096;
+            --bg-light: #f7fafc;
+            --accent: #319795;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: #ffffff;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: #ffffff;
+            padding: 2.5rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: #e2e8f0;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        nav {
+            background-color: var(--bg-light);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: var(--secondary);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            margin-bottom: 3.5rem;
+            scroll-margin-top: 5rem;
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 1.75rem;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.25rem;
+        }
+
+        h3 {
+            color: var(--secondary);
+            font-size: 1.2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        ul {
+            margin-bottom: 1.5rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+        }
+
+        li strong {
+            color: var(--primary);
+        }
+
+        .materials-box {
+            background-color: var(--bg-light);
+            border-left: 4px solid var(--accent);
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .step-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .step-item {
+            background: var(--bg-light);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .step-num {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: white;
+            font-weight: bold;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+            font-size: 0.85rem;
+        }
+
+        footer {
+            background-color: var(--bg-light);
+            border-top: 1px solid var(--border);
+            text-align: center;
+            padding: 1.5rem;
+            color: var(--text-light);
+            font-size: 0.875rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.75rem; }
+            nav ul { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gestión Tecnológica y Sustentabilidad</h1>
+        <p>Análisis conceptual, características e importancia de la reutilización de residuos electrónicos a través de la práctica técnica.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#definicion">1. Definición</a></li>
+            <li><a href="#caracteristicas">2. Características</a></li>
+            <li><a href="#importancia">3. Importancia</a></li>
+            <li><a href="#proceso">4. Proceso Técnico</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- SECCIÓN 1 -->
+        <section id="definicion">
+            <h2>1. ¿Qué es basura electrónica?</h2>
+            <p>La basura electrónica o <em>e-waste</em> se refiere a todos aquellos aparatos eléctricos o electrónicos que han sido desechados, dañados o que han cumplido su ciclo de vida útil. Esto incluye desde teléfonos celulares, computadoras y tabletas, hasta electrodomésticos, cables y componentes internos que ya no se utilizan y se convierten en residuos.</p>
+        </section>
+
+        <!-- SECCIÓN 2 -->
+        <section id="caracteristicas">
+            <h2>2. ¿Qué características tiene la basura electrónica?</h2>
+            <ul>
+                <li><strong>Composición mixta y compleja:</strong> Contiene una mezcla de materiales altamente valiosos (oro, plata, cobre, aluminio) junto con plásticos y vidrios.</li>
+                <li><strong>Presencia de componentes tóxicos:</strong> Alberga sustancias peligrosas para la salud y el medio ambiente como plomo, mercurio, cadmio, cromo hexavalente y retardantes de llama bromados.</li>
+                <li><strong>Crecimiento acelerado:</strong> Es uno de los tipos de residuos que más rápido crece en el mundo debido a la obsolescencia programada y la constante renovación tecnológica.</li>
+                <li><strong>Alto potencial de reciclaje:</strong> Gran parte de sus componentes metálicos y plásticos se pueden recuperar para ser reintroducidos en la cadena de producción.</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN 3 -->
+        <section id="importancia">
+            <h2>3. ¿Cuál es la importancia de reutilizar la basura electrónica?</h2>
+            <ul>
+                <li><strong>Reducción de la contaminación:</strong> Evita que los metales pesados y químicos tóxicos se filtren en el suelo, los mantos acuíferos y el aire si se queman o entierran incorrectamente.</li>
+                <li><strong>Conservación de recursos naturales:</strong> Al reutilizar componentes, se reduce drásticamente la necesidad de minería para extraer nuevos materiales vírgenes (como el litio o el oro), disminuyendo el impacto ecológico de la extracción.</li>
+                <li><strong>Ahorro de energía:</strong> Procesar materiales reciclados o reutilizar piezas existentes consume mucha menos energía que fabricar componentes desde cero.</li>
+                <li><strong>Fomento de la economía circular:</strong> Alarga la vida útil de los materiales y abre oportunidades para la innovación, la creación de nuevos productos y el empleo técnico/artesanal.</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN 4 -->
+        <section id="proceso">
+            <h2>4. Proceso de elaboración de un producto físico</h2>
+            
+            <div class="materials-box">
+                <h3>Producto: Carrito de juguete motorizado</h3>
+                <p><strong>Materiales utilizados:</strong> Una caja de registro eléctrico (de luz) como chasis, cajitas de cargadores de celular en desuso, un motor pequeño recuperado y pilas de control remoto.</p>
+            </div>
+
+            <div class="step-list">
+                <div class="step-item">
+                    <span class="step-num">Paso 1</span>
+                    <h3>Recolección y selección de componentes</h3>
+                    <p>Se recolectan los residuos tecnológicos necesarios para el proyecto: una caja de plástico o metal (de las que se usan para las conexiones de luz), cajitas de cargadores de teléfonos que ya no funcionen, pilas usadas de control remoto y un pequeño motor de corriente directa extraído de algún aparato viejo (como un reproductor de DVD o un juguete roto).</p>
+                </div>
+
+                <div class="step-item">
+                    <span class="step-num">Paso 2</span>
+                    <h3>Preparación del chasis y las ruedas</h3>
+                    <p>Se utiliza la caja de luz como la estructura principal (chasis) del carrito. Las cajitas de los cargadores se desarman o se cortan para aprovechar sus tapas plásticas o sus formas redondas/rectangulares y adaptarlas como las ruedas o soportes del vehículo.</p>
+                </div>
+
+                <div class="step-item">
+                    <span class="step-num">Paso 3</span>
+                    <h3>Montaje del sistema de tracción (Motor)</h3>
+                    <p>Se fija el pequeño motor recuperado en la parte trasera o delantera de la caja de luz utilizando silicón caliente o cinchos. Se conecta el eje del motor directamente a uno de los ejes de las ruedas improvisadas para que pueda transmitir el movimiento.</p>
+                </div>
+
+                <div class="step-item">
+                    <span class="step-num">Paso 4</span>
+                    <h3>Instalación del portapilas y conexiones</h3>
+                    <p>Se limpia el compartimento o se fijan las pilas de control remoto dentro de la caja de luz. Con la ayuda de cables delgados (que también se extraen de los mismos cargadores viejos), se realiza la conexión eléctrica desde los polos de las pilas hacia las terminales del motor.</p>
+                </div>
+
+                <div class="step-item">
+                    <span class="step-num">Paso 5</span>
+                    <h3>Ensamblaje final y detalles estéticos</h3>
+                    <p>Se cierran los componentes dentro de la caja de luz, asegurándose de que el cableado quede protegido y no haga cortocircuito. Se pueden usar partes plásticas sobrantes de los cargadores para darle un diseño más aerodinámico o detalles visuales al carrito.</p>
+                </div>
+
+                <div class="step-item">
+                    <span class="step-num">Paso 6</span>
+                    <h3>Pruebas de funcionamiento</h3>
+                    <p>Se colocan las pilas en su posición final para cerrar el circuito. Se coloca el carrito en el suelo para comprobar que el motor reciba la energía de las pilas con la fuerza suficiente para hacer girar las ruedas y desplazar el vehículo.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Plataforma de Información Tecnológica y Ambiental. Contenido académico estructurado bajo estándares web profesionales.</p>
+    </footer>
+
+</body>
+</html>
